@@ -1,0 +1,2 @@
+argocd app create my-project --repo https://github.com/mrvincentoti/my-project.git --path my-project 
+--dest-server https://kubernetes.default.svc --dest-namespace default
